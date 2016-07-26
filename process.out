@@ -1,0 +1,8 @@
+
+> webdriver-issues@1.0.0 start /Users/kharriger/projects/webdriver-issues
+> babel-node index.js
+
+broken - expecting false got: false
+broken - expecting true got: false
+working - expecting false got: false
+working - expecting true got: true

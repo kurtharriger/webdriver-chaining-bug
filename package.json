@@ -1,0 +1,26 @@
+{
+  "name": "webdriver-issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "selenium": "selenium-standalone install && selenium-standalone start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "express": "^4.14.0",
+    "selenium-standalone": "^5.5.0",
+    "webdriverio": "^4.2.3"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  }
+}

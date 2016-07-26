@@ -1,0 +1,80 @@
+
+> taco@0.0.1 selenium /Users/kharriger/projects/churro/taco
+> selenium-standalone install && selenium-standalone start
+
+----------
+selenium-standalone installation starting
+----------
+
+---
+selenium install:
+from: https://selenium-release.storage.googleapis.com/2.53/selenium-server-standalone-2.53.0.jar
+to: /Users/kharriger/projects/churro/taco/node_modules/selenium-standalone/.selenium/selenium-server/2.53.0-server.jar
+---
+chrome install:
+from: https://chromedriver.storage.googleapis.com/2.21/chromedriver_mac32.zip
+to: /Users/kharriger/projects/churro/taco/node_modules/selenium-standalone/.selenium/chromedriver/2.21-x64-chromedriver
+---
+File from https://chromedriver.storage.googleapis.com/2.21/chromedriver_mac32.zip has already been downloaded
+---
+File from https://selenium-release.storage.googleapis.com/2.53/selenium-server-standalone-2.53.0.jar has already been downloaded
+
+
+-----
+selenium-standalone installation finished
+-----
+15:51:19.415 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/kharriger/projects/churro/taco/node_modules/selenium-standalone/.selenium/chromedriver/2.21-x64-chromedriver
+15:51:19.473 INFO - Java: Oracle Corporation 25.31-b07
+15:51:19.473 INFO - OS: Mac OS X 10.11.4 x86_64
+15:51:19.492 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+15:51:19.616 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+15:51:19.617 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+15:51:19.617 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:51:19.617 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+15:51:19.620 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+15:51:19.620 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+15:51:19.738 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+15:51:19.738 INFO - Selenium Server is up and running
+Selenium started
+15:53:23.339 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@36aba8bc, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, requestOrigins={name=webdriverio, version=4.2.3, url=http://webdriver.io}}]])
+15:53:23.363 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@36aba8bc, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, requestOrigins={name=webdriverio, version=4.2.3, url=http://webdriver.io}}]
+Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 28615
+Only local connections are allowed.
+15:53:25.498 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@36aba8bc, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, requestOrigins={name=webdriverio, version=4.2.3, url=http://webdriver.io}}]]
+15:53:25.523 INFO - Executing: [get: http://localhost:8080])
+15:53:26.221 INFO - Done: [get: http://localhost:8080]
+15:53:26.250 INFO - Executing: [find elements: By.xpath: //h1[normalize-space() = "Title"]])
+15:53:26.351 INFO - Done: [find elements: By.xpath: //h1[normalize-space() = "Title"]]
+15:53:26.368 INFO - Executing: [get text: 0 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> xpath: //h1[normalize-space() = "Title"]]])
+15:53:26.443 INFO - Done: [get text: 0 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> xpath: //h1[normalize-space() = "Title"]]]
+15:53:26.461 INFO - Executing: [find element: By.cssSelector: form])
+15:53:26.655 INFO - Done: [find element: By.cssSelector: form]
+15:53:26.667 INFO - Executing: [find child element: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form], By.cssSelector: input])
+15:53:26.715 INFO - Done: [find child element: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form], By.cssSelector: input]
+15:53:26.733 INFO - Executing: [is selected: 2 [[[[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]] -> css selector: input]])
+15:53:26.799 INFO - Done: [is selected: 2 [[[[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]] -> css selector: input]]
+15:53:26.827 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]])
+15:53:26.968 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]]
+15:53:26.991 INFO - Executing: [is selected: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]])
+15:53:27.039 INFO - Done: [is selected: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]]
+15:53:27.095 INFO - Executing: [find element: By.cssSelector: form])
+15:53:27.151 INFO - Done: [find element: By.cssSelector: form]
+15:53:27.160 INFO - Executing: [find child element: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form], By.cssSelector: input])
+15:53:27.205 INFO - Done: [find child element: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form], By.cssSelector: input]
+15:53:27.217 INFO - Executing: [is selected: 2 [[[[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]] -> css selector: input]])
+15:53:27.236 INFO - Done: [is selected: 2 [[[[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]] -> css selector: input]]
+15:53:27.250 INFO - Executing: [find element: By.cssSelector: form])
+15:53:27.279 INFO - Done: [find element: By.cssSelector: form]
+15:53:27.286 INFO - Executing: [find child element: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form], By.cssSelector: input])
+15:53:27.299 INFO - Done: [find child element: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form], By.cssSelector: input]
+15:53:27.311 INFO - Executing: [click: 2 [[[[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]] -> css selector: input]])
+15:53:27.370 INFO - Done: [click: 2 [[[[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]] -> css selector: input]]
+15:53:27.384 INFO - Executing: [find element: By.cssSelector: form])
+15:53:27.397 INFO - Done: [find element: By.cssSelector: form]
+15:53:27.408 INFO - Executing: [find child element: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form], By.cssSelector: input])
+15:53:27.424 INFO - Done: [find child element: 1 [[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form], By.cssSelector: input]
+15:53:27.454 INFO - Executing: [is selected: 2 [[[[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]] -> css selector: input]])
+15:53:27.498 INFO - Done: [is selected: 2 [[[[ChromeDriver: chrome on MAC (62b73636628d728b7f288dac5bbb5baa)] -> css selector: form]] -> css selector: input]]
